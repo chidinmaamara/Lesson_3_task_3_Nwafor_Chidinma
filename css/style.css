@@ -51,3 +51,85 @@ table {
 
 
 /* Write your css below here */
+
+h1{
+	flex: 2;
+	justify-content: center;
+	display: flex;
+	font-size: 40px;
+}
+.nav{
+	display: flex;
+	flex: 1;
+	gap: 30px;
+	font-size: 20px;
+}
+.container{
+	background-color:darkslategrey;
+	justify-items:flex-end;
+	padding: 1%;
+	margin: 1%;
+}
+header{
+	min-height: 150px;
+	display: flex;
+	align-items: center;
+	/* justify-content: space-between; */
+}
+h2{
+	font-size: 40px;
+	color: aquamarine;
+}
+h3{
+	font-size: 30px;
+	color: aqua;
+}
+h4{
+	font-size: 25px;
+	color:burlywood;
+}
+h5{
+	font-size: 30px;
+	color: brown;
+}
+.main{
+	padding: 1%;
+	margin: 1%;;
+	flex: 2;
+	height:400px;
+}
+.aside{
+	padding: 1%;
+	margin: 1%;
+	flex: 1;
+}
+footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	height: 60px;
+	background-color:papayawhip;
+
+}
+section{
+	display: flex;
+	padding: 1%;
+}
+.contact{
+	padding: 3%;
+	margin: 3%;
+	font-size: 20px;
+}
+
+@media screen and ( width <=849px) {
+	section{
+		flex-direction: column;
+	}
+	header{
+		flex-direction: column;
+	}
+	img{
+		display:none ;
+	}
+}
