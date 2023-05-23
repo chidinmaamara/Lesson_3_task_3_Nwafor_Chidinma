@@ -24,6 +24,6 @@
 
 * Mr Patrick
 
-[VIEW LIVE SITE](https://chidinmaamara.github.io/Lesson_3_task_2_Nwafor_Chidinma/)
+[VIEW LIVE SITE](https://chidinmaamara.github.io/Lesson_3_task_3_Nwafor_Chidinma/)
 
 ## This is a work of LM TechHub.
